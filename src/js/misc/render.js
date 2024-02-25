@@ -11,14 +11,14 @@ const render = {
     },
     miku: {
       name: 'miku ❤️~',
-      root: 'render/miku/',
+      root: 'render/al/',
       // 001.png ~ 050.png
       array: Array.apply(null, { length: 50 }).map((_, i) => `${('00' + (i + 1)).slice(-3)}.png`)
     }
   },
-  config: null,
-  selected: null,
-  done: false
+  config: 'al',
+  selected: 'al',
+  done: true
 }
 
 render.showTogglePrompt = () => {
